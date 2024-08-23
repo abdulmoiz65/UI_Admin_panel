@@ -1,6 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #009CFF;
+    --primary: #1d2f6f;
+
+    /* color: #1d2f6f; */
+
     --light: #F3F6F9;
     --dark: #191C24;
 }
@@ -12,7 +15,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -216,3 +218,6 @@
     }
 }
 
+.blank{
+    border: 5px solid #1d2f6f;
+}
